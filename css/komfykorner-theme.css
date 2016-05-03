@@ -1,0 +1,233 @@
+body {
+	background-color: rgba(153, 153, 102, 0.6);
+}
+
+.container {
+    background-color: #ffffff;
+	padding-right: 0;
+    padding-left: 0;	
+}
+hr {
+    border-top: 1px solid #006666;
+}
+.h1, h1 {
+    font-family: 'Berkshire Swash';
+}
+.h2, h2 {
+    font-family: 'Berkshire Swash';
+}
+.h3, h3 {
+    font-family: 'Berkshire Swash';
+    color: #336600;
+	text-align: center;
+}
+.home a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.home a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact p a {
+    color: #006666;
+    text-decoration: none;
+}
+
+.img-thumbnail {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #006666;
+}
+.btn-default {
+    color: #336600;
+    border-color: #336600;
+}
+.btn-default:hover {
+    color: #336600;
+    border-color: #336600;
+	background-color: rgba(153, 153, 102, 0.3);
+}
+.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+    color: #336600;
+    border-color: #336600;
+	background-color: rgba(153, 153, 102, 0.3);	
+}
+.gap-right {
+  margin-right: 10px; 
+}
+form#contactForm {
+    margin-right: 10px;
+}
+
+/*Header */
+header {
+    position: relative;
+    margin-bottom: -66px;
+    padding-top: 10px;
+}
+.img-circle {
+    border: 6px solid #006666;
+}
+.logo {
+	display: table;
+	height: 150px;
+	overflow: hidden;
+	width: 100%;
+}
+.logo .col-xs-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.logo-text-left {
+	padding-top: 50px;
+	margin-right: -54px;
+	font-family: 'Berkshire Swash';
+    font-size: 18px;
+}
+.logo-text-right {
+	padding-top: 50px;
+	margin-left: -54px;
+	margin-right: -1px;
+}
+.logo-text-left p {
+    background-color: #006666;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/* Navigation Bar */
+.navbar-inverse {
+	background-color: #006666;
+	border-radius: 0;
+	border-color: #006666;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+	border-right: 1px solid rgba(0,0,0,.2);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.10);
+	font-size: 14px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #006666;
+}
+.nav>li>a {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    border-color: #006666;
+}
+.dropdown-menu .divider {
+	background-color: #006666;
+}
+.dropdown-menu {
+	border: 1px solid #006666;
+}
+.dropdown-menu>li>a {
+	color: #178cb7;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #178cb7;
+}
+
+/* Jumbotron */
+.container .jumbotron {
+	padding-right: 0;
+	padding-left: 0;
+}
+.jumbotron {
+	padding-top: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+/* Page Header */
+.page-header {
+    padding-bottom: 0;
+    border-bottom: 1px solid #006666;
+    color: #006666;
+	margin-left: 20px;
+	margin-right: 20px;	
+}
+.page-text {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* Page Content */
+.row {
+	margin: 20px 7px;	
+}	
+.marketing {
+	text-align: center;
+}
+.testimonials {
+	margin-left: 10px;
+    margin-right: 10px;	
+}
+.about {
+	margin-left: 10px;
+    margin-right: 10px;	
+}
+.contact {
+	margin-left: 10px;
+    margin-right: 10px;	
+}
+
+/* Panels */
+.panel-default {
+    border-color: #33500f;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+.panel-default>.panel-heading {
+    color: #ffffff;
+    background-color: #33500f;
+    border-color: #33500f;
+}
+.panel-title {
+    font-size: 22px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 20px;
+    color: #ffffff;
+    background-color: #006666;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 774px;
+	}
+}
+
+/* Devices smaller than portrait tablet */
+@media (max-width: 767px) {
+	.logo-text-right {
+		padding-top: 36px;
+		margin-left: -5px;
+	}
+	.logo-text-left {
+		padding-top: 36px;
+		margin-right: -43px;
+		font-size: 14px;
+	}
+	.logo-text-left p {
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-left: 4px;
+	}	
+}
